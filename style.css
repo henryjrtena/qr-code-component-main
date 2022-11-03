@@ -9,10 +9,12 @@
 body{
     background-color: #d6e1f0;
     padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main{
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 15px;
     border-radius: 15px;
@@ -44,10 +46,11 @@ main .main__text{
     margin-bottom: 20px;
 }
 
-.about__container{
+footer{
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
